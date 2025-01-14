@@ -1,5 +1,5 @@
 section {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -7,8 +7,12 @@ section {
 .section__layout {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
   justify-content: center;
-  align-items: center;
+
+  padding: 23px;
 }
 
 .section__container {
@@ -18,6 +22,9 @@ section {
   flex-direction: column;
   margin: 0 auto;
   margin-bottom: 22px;
+}
+.section__photo {
+  width: 548px;
 }
 .section__photo > img {
   object-fit: cover;
@@ -92,7 +99,7 @@ section {
   width: 100%;
   max-width: 600px;
   padding: 2px 0px;
-  background-color: #cecece;
+  background-color: #d6d6d6;
   margin-top: 30px;
   justify-content: center;
 }
