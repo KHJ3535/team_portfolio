@@ -1,6 +1,17 @@
 header {
   width: 100vw;
 }
+
+.bigcard {
+  width: 100vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 nav {
   width: 100%;
   max-width: 600px;
@@ -12,7 +23,8 @@ nav {
   padding: 18px 19px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
+  border-bottom: 1px solid #bbbbbb;
+  color: #646464;
 }
 
 .nav__listbox {
@@ -34,6 +46,8 @@ nav {
 }
 .sorting {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 13px;
   letter-spacing: -1px;
   gap: 5px;
