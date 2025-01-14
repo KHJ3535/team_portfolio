@@ -25,6 +25,7 @@ nav {
   justify-content: space-between;
   border-bottom: 1px solid #bbbbbb;
   color: #646464;
+  margin-top: 50px;
 }
 
 .nav__listbox {
