@@ -1,0 +1,46 @@
+.main__postlayout {
+  width: 100vw;
+  max-width: 600px;
+  margin: 0 auto;
+  background-image: url("https://static.blog.gangnamunni.com/files/df/dfbaa960-576f-4555-9861-77565bc90e70.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main__post {
+  height: 200px;
+  width: 100%;
+
+  /* background-image: url("https://static.blog.gangnamunni.com/files/df/dfbaa960-576f-4555-9861-77565bc90e70.png");
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+.text__box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__text {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+}
+.main__text--sub {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 13px;
+  padding-left: 100px;
+}
+.brand__num--text {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 13px;
+  padding-right: 190px;
+}
