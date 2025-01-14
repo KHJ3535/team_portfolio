@@ -15,7 +15,7 @@ main {
     align-items: center;
     justify-content: space-between;
 
-    margin-left: 30px;
+    margin: 0 auto;
     
     
     
@@ -56,6 +56,8 @@ main {
     display: flex;
     width: 90%;
 
+    margin: 10px auto;
+
 }
 
 
@@ -78,9 +80,7 @@ main {
 
     object-fit: cover;
 
-    border-radius: 30px;
-
-    margin: 20px 20px;
+    border-radius: 5px;
    
 
   
