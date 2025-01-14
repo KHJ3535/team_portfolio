@@ -1,5 +1,5 @@
 .main__layout {
-  width: 610px;
+  width: 100%;
 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -7,7 +7,17 @@
   width: 100%;
   height: 100%;
 }
-img {
+.main__card--tag {
+  padding-top: 20px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.main__img {
+  width: 100%;
+  height: 100%;
+}
+.sub__img {
   width: 100%;
   height: 100%;
 }
@@ -24,19 +34,23 @@ img {
   font-weight: 500;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .main__subtag {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
+  color: #666666;
 
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }
 .main__subtag--num {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   display: flex;
   justify-content: center;
+  color: #666666;
 }
 .sub__card {
   margin: 0 auto;
@@ -50,8 +64,8 @@ h2 {
   font-weight: 700;
   font-size: 17px;
 
+  padding-top: 3px;
   margin-left: 25px;
-  margin-top: -5px;
 }
 .sub__font {
   width: 90%;
@@ -59,30 +73,104 @@ h2 {
   justify-content: space-between;
   margin-left: 25px;
   margin-top: -15px;
+  margin-bottom: 20px;
 
-  border-bottom: 1px solid gray;
-  padding: 0px 0px 3px;
+  border-bottom: 1px solid rgb(223, 216, 216);
+  padding-top: 30px;
 }
 .sub__font--num {
   display: flex;
-  font-size: 12px;
+  font-size: 15px;
+
+  margin-bottom: 5px;
+  color: #666666;
 }
 .sub__font--info {
   display: flex;
-  font-size: 12px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #666666;
 }
 button {
-  width: 80%;
+  width: 50%;
+  margin-left: 150px;
 
   background-color: #ff540f;
-  padding: 14px 16px;
+  padding: 20px 16px;
   border: none;
   border-radius: 8px;
   color: white;
 
   font-size: 16px;
   font-weight: 700;
-  margin-left: 60px;
-  margin-top: 17px;
-  margin-bottom: 15px;
+
+  margin-bottom: 35px;
+}
+.footer {
+  padding: 30px;
+  color: #555555;
+  background-color: #f4f4f4;
+  border-top: 4px solid #d8d8d8;
+}
+.footer__title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #777777;
+}
+.footer__company--title {
+  margin-top: 20px;
+}
+.footer__company--list {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 10px;
+}
+
+.company__list1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.company__list2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.company__list3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.company__list4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.company__list5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.company__list6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.footer__company--title {
+  padding-top: 10px;
+}
+.footer__normal {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer__help {
+  padding-top: 30px;
+  margin-bottom: 21px;
+}
+.footer__notice {
+  margin: 24px 0px;
+}
+.footer__sns {
+  margin: 9px 0px;
+}
+.footer__sns > i {
+  color: #777777;
+  font-size: 26px;
+  padding-right: 8px;
+}
+.fixed__footer--calumn {
+  color: #ff540f;
 }

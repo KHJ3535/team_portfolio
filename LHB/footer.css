@@ -1,0 +1,75 @@
+footer {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.footer__layout {
+  margin-left: 30px;
+}
+
+.footer__textfont {
+  font-size: 13px;
+  color: #666666;
+}
+
+.footer__nametextfont {
+  font-weight: 900;
+  font-size: 14px;
+  color: #666666;
+}
+
+.footer__mailfont {
+  font-size: 12px;
+  color: black;
+}
+
+.footer__listlayout {
+  display: flex;
+  gap: 120px;
+  margin-bottom: 16px;
+}
+
+.footer__logo {
+  margin: 28px 0px;
+}
+.footer__company {
+  margin: 20px 0px 12px 0px;
+}
+
+.footer__list > li {
+  margin-bottom: 13px;
+}
+.footer__listborder {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer__helpcenter {
+  margin-bottom: 11px;
+}
+
+.footer__mail {
+  margin-bottom: 28px;
+}
+
+.footer__textinfo {
+  line-height: 16px;
+  margin-bottom: 25px;
+}
+
+.footer__textdescription {
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.logobox {
+  font-size: 25px;
+  color: #666666;
+  display: flex;
+  gap: 18px;
+  margin-bottom: 15px;
+}
+
+.healingpaper {
+  margin-bottom: 100px;
+}
