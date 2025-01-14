@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 html,
 body,
@@ -88,7 +85,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
- 
+  /* font: inherit; */
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -127,19 +124,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 * {
   box-sizing: border-box;
 }
-
 a {
-  text-decoration: none;    /*텍스트 밑줄 없애버림 */
+  text-decoration: none;
   color: inherit;
 }
-
 ul,
 ol {
   margin: 0;
   padding: 0;
   list-style: none;
-} /* 리스트 마진을 다 없애버린 작업
+}
