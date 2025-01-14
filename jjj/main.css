@@ -14,8 +14,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    margin-left: 30px;
     
-    margin-left: 20px;
+    
     
 
     border-radius: 9999px;
@@ -26,8 +28,9 @@ main {
 .txt2 {
     font-size: 10px;
     font-weight: 600;
+    margin-left: 30px;
 
-    margin-left: 20px;
+   
 }
 
 .icon {
@@ -47,46 +50,39 @@ main {
     font-size: 13px;
 }
 
-.menu {
+.contain {
+    display: flex;
+    width: 90%;
+
+}
+
+
+.ad {
     width: 100%;
     height: auto;
-    display: flex;
-    margin-left: 60px;
-    gap: 50px;
 
-    margin-top: 20px;
+    margin-top: 10px;
 
-   
+    border-radius: 30px;
 
-}
-
-
-.menu-contanier {
-    width: 80px;
-    height: 80px;
-    border-radius: 5px;
-
-    font-size: 10px;
-
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 
-    
-}
-
-.menu-contanier:hover {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.img {
-    width: 50%;
-  
 
 }
 
-.img > img {
+.ad > img {
     width: 100%;
+
     object-fit: cover;
+
+    border-radius: 30px;
+
+    margin: 20px 20px;
+   
+
+  
 }
+
+
+
