@@ -3,10 +3,10 @@
     width: 100%;
     height: auto;
     display: flex;
-    margin-left: 60px;
-    gap: 50px;
 
-    margin-top: 20px;
+    margin: 20px auto;
+    padding: 0 40px;
+
 
    
 
@@ -24,6 +24,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    margin: 0px auto;
+
 
     
 }

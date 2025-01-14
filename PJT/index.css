@@ -97,7 +97,6 @@ h2 {
 }
 button {
   width: 50%;
-  margin-left: 150px;
 
   background-color: #ff540f;
   padding: 20px 16px;
@@ -105,8 +104,8 @@ button {
   border-radius: 8px;
   color: white;
 
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: bold;
 
   margin-bottom: 35px;
 }
@@ -177,4 +176,7 @@ button {
 }
 .fixed__footer--calumn {
   color: #ff540f;
+}
+.sub__button {
+  text-align: center;
 }
