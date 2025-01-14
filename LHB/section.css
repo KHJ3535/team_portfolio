@@ -1,5 +1,5 @@
 section {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,13 +8,12 @@ section {
 .section__layout {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
   justify-content: center;
-<<<<<<< HEAD
 
   padding: 23px;
-=======
-  align-items: center;
->>>>>>> 3cc3cb6c39c722a2b9d49b8433c2858283040045
 }
 
 .section__container {
