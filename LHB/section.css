@@ -12,7 +12,7 @@ section {
   max-width: 600px;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
+
   padding: 23px;
 }
 
@@ -23,6 +23,9 @@ section {
   flex-direction: column;
   margin: 0 auto;
   margin-bottom: 22px;
+}
+.section__photo {
+  width: 548px;
 }
 .section__photo > img {
   object-fit: cover;
