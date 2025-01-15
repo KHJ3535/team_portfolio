@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 프로젝트 이름
 
 ---
@@ -52,4 +51,3 @@ https://khj3535.github.io/team_portfolio/index.html
 - 박준태 (https://github.com/juntae-123)
 - 이현배 (https://github.com/calburok)
 - 최재혁 (https://github.com/jeahyuk7)
->>>>>>> 7b58b714e0f13c4428257a7735b99416cb37deb9
