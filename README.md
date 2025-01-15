@@ -34,11 +34,11 @@ https://khj3535.github.io/team_portfolio/index.html
 
 ## 소개
 ---
-최재혁 : 메인페이지 구현 (index.html)
-이현배 : 병원페이지 구현 (LHB/index.html
-김형준 : 이벤트페이지 구현 (KHJ/index.html)
-박준태 : 칼럼페이지 구현 (PJT/index.html)
 
+최재혁 : 메인페이지 구현 (index.html) <br>
+이현배 : 병원페이지 구현 (LHB/index.html <br>
+김형준 : 이벤트페이지 구현 (KHJ/index.html) <br>
+박준태 : 칼럼페이지 구현 (PJT/index.html)
 ### 페이지
 ---
 https://khj3535.github.io/team_portfolio/index.html
