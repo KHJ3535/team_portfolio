@@ -27,7 +27,6 @@ https://khj3535.github.io/team_portfolio/index.html
 - 박준태 (https://github.com/juntae-123)
 - 이현배 (https://github.com/calburok)
 - 최재혁 (https://github.com/jeahyuk7)
-=======
 # 프로젝트 이름
 ---
 
